@@ -2,47 +2,47 @@
 
 ## Análisis de requerimientos
 
--Pía Peña
+- Pía Peña
 
 ---
 
 ## Equipo de desarrollo
 
 ### Frontend
--BracoZS (frontend dev)
--Pía Peña (UX, accesibilidad)
--Demian
+- BracoZS (frontend dev)
+- Pía Peña (UX, accesibilidad)
+- Demian
 
 ### Backend
--Marcelo
--Eze
+- Marcelo
+- Eze
 
 ### DB
--Marcelo
--Eze
--Demian
+- Marcelo
+- Eze
+- Demian
 
 ### QA - Testing
--Pía Peña
--Demian
+- Pía Peña
+- Demian
 
 ---
 
 ## Organización y gestión
 
--Trello / Jira / Google Tasks?
--Scrum, sprints de 7 días
+- Trello / Jira / Google Tasks?
+- Scrum, sprints de 7 días
 
 ---
 
 ## Tecnologías usadas para el proyecto
 
 ### Frontend
--Astro (frontend agnóstico)
+- Astro (frontend agnóstico)
 
 ### Backend
--TypeScript, Prisma, Supabase
--Java - Spring Boot
+- TypeScript, Prisma, Supabase
+- Java - Spring Boot
 
 ### DB
--PostgreSQL
+- PostgreSQL
