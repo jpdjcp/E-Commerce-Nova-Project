@@ -1,37 +1,48 @@
-E-Commerce - Nova Project
+#E-Commerce - Nova Project
 
-Análisis de requerimientos
+##Análisis de requerimientos
 
-Pía Peña
-Equipo de desarrollo
+-Pía Peña
 
-Frontend
-BracoZS (frontend dev)
-Pía Peña (UX, accesibilidad)
-Demian
+---
 
-Backend
-Marcelo
-Eze
+##Equipo de desarrollo
 
-DB
-Marcelo
-Eze
-Demian
-QA - Testing
-Pía Peña
-Demian
+###Frontend
+-BracoZS (frontend dev)
+-Pía Peña (UX, accesibilidad)
+-Demian
 
-Organización y gestión
-Trello / Jira / Google Tasks?
-Scrum, sprints de 7 días
-Tecnologías usadas para el proyecto
+###Backend
+-Marcelo
+-Eze
 
-Frontend
-Astro (frontend agnóstico)
+###DB
+-Marcelo
+-Eze
+-Demian
 
-Backend
-TypeScript, Prisma, Supabase
-Java - Spring Boot
-DB
-PostgreSQL
+###QA - Testing
+-Pía Peña
+-Demian
+
+---
+
+##Organización y gestión
+
+-Trello / Jira / Google Tasks?
+-Scrum, sprints de 7 días
+
+---
+
+##Tecnologías usadas para el proyecto
+
+###Frontend
+-Astro (frontend agnóstico)
+
+###Backend
+-TypeScript, Prisma, Supabase
+-Java - Spring Boot
+
+###DB
+-PostgreSQL
