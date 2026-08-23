@@ -60,7 +60,7 @@ The frontend communicates with the backend through the API. The backend implemen
 
 ### 2.1 Introduction
 
-The requirements are validated and prioritized in association with the customer.
+This section describes the initial requirements identified for the Nova E-Commerce system. The requirements are organized into user requirements, which describe the expected capabilities from the user perspective, and system requirements, which will provide more detailed specifications for implementation. These requirements will be reviewed, validated, and prioritized in association with the customer as the project evolves.
 
 ### 2.2 User Requirements
 
@@ -97,45 +97,55 @@ The requirements are validated and prioritized in association with the customer.
 
 ### 2.3 System Requirements (Details)
 
-#### Product Management
+#### 2.3.1 Product Management
 
-- SR-0001.1 - The system must allow administrators to create a new product.
-- SR-0002.1 - The system must allow users to view all active products.
+- SR-001.1 - The system must allow administrators to create a new product.
+- SR-002.1 - The system must allow users to view all active products.
 - SR-003.1 - The system must allow administrators to update product information.
 - SR-004.1 - The system must allow administrators to deactivate products.
 
-#### Customer Management
+#### 2.3.2 Customer Management
 
 - SR-005.1 - The system must allow users to register a customer account.
 - SR-006.1 - The system must allow authenticated customers to view their own account information.
 - SR-006.2 - The system must allow administrators to view customer information, excluding sensitive data.
 - SR-007.1 - The system must allow authenticated customers to update their own account information.
 
-#### Shopping Cart
+#### 2.3.3 Shopping Cart
 
-(place holders)
-- SR-008 - Add a product to the cart.
-- SR-009 - Change product quantity.
-- SR-010 - Remove a product from the cart.
-- SR-011 - View the cart.
+- SR-008.1 - The system must allow the authenticated customer to add products to the cart.
+- SR-009.1 - The system must allow the authenticated customer to increase quantity of a product currently in the cart.
+- SR-009.2 - The system must allow the authenticated customer to decrease quantity of a product currently in the cart.
+- SR-010.1 - The system must allow the authenticated customer to remove a product currently in the cart.
+- SR-011.1 - The system must allow the authenticated customer to view all products currently in the cart and their quantities.
+- SR-011.2 - The system must allow the authenticated customer to view the total price.
 
-#### Ordering
+#### 2.3.4 Ordering
 
-(place holders)
-- SR-012 - Place an order.
-- SR-013 - View an order.
-- SR-014 - Cancel an order if it is pending.
+- SR-012.1 - The system must allow the authenticated customer to place an order using the products currently in the cart.
+- SR-012.2 - The system must create an order with a unique identifier.
+- SR-012.3 - The system must record the products and quantities included in the order.
+- SR-012.4 - The system must record the total price of the order.
+- SR-013.1 - The system must allow the authenticated customer to view an order.
+- SR-013.2 - The system must allow the authenticated customer to view the products and quantities included in an order.
+- SR-013.3 - The system must allow the authenticated customer to view the total price of an order.
+- SR-013.4 - The system must allow the authenticated customer to view the current status of an order.
+- SR-014.1 - The system must allow the authenticated customer to cancel an order while its status is pending.
+- SR-014.2 - The system must change the status of a cancelled order to cancelled.
 
-#### Payment
+#### 2.3.5 Payment
 
-(place holders)
-- SR-015 - Process a payment.
-- SR-016 - Protect payment information.
+- SR-015.1 - The system must allow the authenticated customer to initiate a payment for an order.
+- SR-015.2 - The system must validate the payment information provided by the customer.
+- SR-015.3 - The system must process the payment for the total price of the order.
+- SR-015.4 - The system must record the result of the payment.
+- SR-015.5 - The system must associate the payment with the corresponding order.
+- SR-016.1 - The system must protect the customer's payment information from unauthorized access.
+- SR-016.2 - The system must not store sensitive payment information unless required by the payment processing requirements.
 
 ## 3. Classification of Requirements
 
-(place holder)
-The requirements are classified as functional or non-functional.
+This section classifies the requirements according to their nature and purpose. Functional requirements describe the behaviors, operations, and capabilities that the system must provide to its users. Non-functional requirements describe quality attributes and constraints, such as security, reliability, usability, performance, and maintainability. This classification helps organize the requirements for analysis, implementation planning, and validation.
 
 ### 3.1 Functional Requirements
 
@@ -151,8 +161,8 @@ Manage Products
 
 ## 4. Prioritization of Requirements
 
-Essentials
+### 4.1 Essentials
 
-Importants
+### 4.2 Importants
 
-Wishables
+### 4.3 Wishables
