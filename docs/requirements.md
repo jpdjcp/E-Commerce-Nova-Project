@@ -135,9 +135,13 @@ This section describes the initial requirements identified for the Nova E-Commer
 
 #### 2.3.5 Payment
 
-(place holders)
-- SR-015 - Process a payment.
-- SR-016 - Protect payment information.
+- SR-015.1 - The system must allow the authenticated customer to initiate a payment for an order.
+- SR-015.2 - The system must validate the payment information provided by the customer.
+- SR-015.3 - The system must process the payment for the total price of the order.
+- SR-015.4 - The system must record the result of the payment.
+- SR-015.5 - The system must associate the payment with the corresponding order.
+- SR-016.1 - The system must protect the customer's payment information from unauthorized access.
+- SR-016.2 - The system must not store sensitive payment information unless required by the payment processing requirements.
 
 ## 3. Classification of Requirements
 
