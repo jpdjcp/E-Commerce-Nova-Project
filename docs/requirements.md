@@ -99,8 +99,8 @@ This section describes the initial requirements identified for the Nova E-Commer
 
 #### Product Management
 
-- SR-0001.1 - The system must allow administrators to create a new product.
-- SR-0002.1 - The system must allow users to view all active products.
+- SR-001.1 - The system must allow administrators to create a new product.
+- SR-002.1 - The system must allow users to view all active products.
 - SR-003.1 - The system must allow administrators to update product information.
 - SR-004.1 - The system must allow administrators to deactivate products.
 
@@ -134,8 +134,7 @@ This section describes the initial requirements identified for the Nova E-Commer
 
 ## 3. Classification of Requirements
 
-(place holder)
-The requirements are classified as functional or non-functional.
+This section classifies the requirements according to their nature and purpose. Functional requirements describe the behaviors, operations, and capabilities that the system must provide to its users. Non-functional requirements describe quality attributes and constraints, such as security, reliability, usability, performance, and maintainability. This classification helps organize the requirements for analysis, implementation planning, and validation.
 
 ### 3.1 Functional Requirements
 
@@ -156,4 +155,5 @@ Essentials
 Importants
 
 Wishables
+
 
