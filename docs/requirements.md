@@ -60,7 +60,7 @@ The frontend communicates with the backend through the API. The backend implemen
 
 ### 2.1 Introduction
 
-The requirements are validated and prioritized in association with the customer.
+This section describes the initial requirements identified for the Nova E-Commerce system. The requirements are organized into user requirements, which describe the expected capabilities from the user perspective, and system requirements, which will provide more detailed specifications for implementation. These requirements will be reviewed, validated, and prioritized in association with the customer as the project evolves.
 
 ### 2.2 User Requirements
 
@@ -156,3 +156,4 @@ Essentials
 Importants
 
 Wishables
+
