@@ -97,21 +97,21 @@ This section describes the initial requirements identified for the Nova E-Commer
 
 ### 2.3 System Requirements (Details)
 
-#### Product Management
+#### 2.3.1 Product Management
 
 - SR-001.1 - The system must allow administrators to create a new product.
 - SR-002.1 - The system must allow users to view all active products.
 - SR-003.1 - The system must allow administrators to update product information.
 - SR-004.1 - The system must allow administrators to deactivate products.
 
-#### Customer Management
+#### 2.3.2 Customer Management
 
 - SR-005.1 - The system must allow users to register a customer account.
 - SR-006.1 - The system must allow authenticated customers to view their own account information.
 - SR-006.2 - The system must allow administrators to view customer information, excluding sensitive data.
 - SR-007.1 - The system must allow authenticated customers to update their own account information.
 
-#### Shopping Cart
+#### 2.3.3 Shopping Cart
 
 - SR-008.1 - The system must allow the authenticated customer to add products to the cart.
 - SR-009.1 - The system must allow the authenticated customer to increase quantity of a product currently in the cart.
@@ -120,14 +120,20 @@ This section describes the initial requirements identified for the Nova E-Commer
 - SR-011.1 - The system must allow the authenticated customer to view all products currently in the cart and their quantities.
 - SR-011.2 - The system must allow the authenticated customer to view the total price.
 
-#### Ordering
+#### 2.3.4 Ordering
 
-(place holders)
-- SR-012 - Place an order.
-- SR-013 - View an order.
-- SR-014 - Cancel an order if it is pending.
+- SR-012.1 - The system must allow the authenticated customer to place an order using the products currently in the cart.
+- SR-012.2 - The system must create an order with a unique identifier.
+- SR-012.3 - The system must record the products and quantities included in the order.
+- SR-012.4 - The system must record the total price of the order.
+- SR-013.1 - The system must allow the authenticated customer to view an order.
+- SR-013.2 - The system must allow the authenticated customer to view the products and quantities included in an order.
+- SR-013.3 - The system must allow the authenticated customer to view the total price of an order.
+- SR-013.4 - The system must allow the authenticated customer to view the current status of an order.
+- SR-014.1 - The system must allow the authenticated customer to cancel an order while its status is pending.
+- SR-014.2 - The system must change the status of a cancelled order to cancelled.
 
-#### Payment
+#### 2.3.5 Payment
 
 (place holders)
 - SR-015 - Process a payment.
