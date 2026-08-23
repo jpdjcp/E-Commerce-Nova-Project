@@ -113,11 +113,12 @@ This section describes the initial requirements identified for the Nova E-Commer
 
 #### Shopping Cart
 
-(place holders)
-- SR-008 - Add a product to the cart.
-- SR-009 - Change product quantity.
-- SR-010 - Remove a product from the cart.
-- SR-011 - View the cart.
+- SR-008.1 - The system must allow the authenticated customer to add products to the cart.
+- SR-009.1 - The system must allow the authenticated customer to increase quantity of a product currently in the cart.
+- SR-009.2 - The system must allow the authenticated customer to decrease quantity of a product currently in the cart.
+- SR-010.1 - The system must allow the authenticated customer to remove a product currently in the cart.
+- SR-011.1 - The system must allow the authenticated customer to view all products currently in the cart and their quantities.
+- SR-011.2 - The system must allow the authenticated customer to view the total price.
 
 #### Ordering
 
@@ -150,10 +151,8 @@ Manage Products
 
 ## 4. Prioritization of Requirements
 
-Essentials
+### 4.1 Essentials
 
-Importants
+### 4.2 Importants
 
-Wishables
-
-
+### 4.3 Wishables
