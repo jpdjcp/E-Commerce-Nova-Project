@@ -11,7 +11,7 @@
 ### Frontend
 - BracoZS (frontend dev)
 - Pía Peña (UX, accesibilidad)
-- Demian
+- Demian (frontend dev)
 
 ### Backend
 - Marcelo
